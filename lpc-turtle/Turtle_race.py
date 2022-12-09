@@ -43,11 +43,15 @@ dice = [1,2,3,4,5,6]
 #Desenvolvimento do jogo
 home_position_one = (300,100)
 home_position_two = (300, -100)
+
 for i in range(20):
+
     if player_one.pos() >= (home_position_one):
         print("Jogador um é o vencedor!")
+
     elif player_two.pos() >= (home_position_two):
         print("Jogador dois é o vencedor!")
+
     else:
         player_one_turn = input("Digite a palavra 'ENTER' para rolar o dado: ")
         dice_outcome = random.choice(dice)
