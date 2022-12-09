@@ -37,7 +37,7 @@ player_two.circle(40)
 player_two.penup()
 player_two.goto(-200,-100)
 
-#Criação o dado
+#Criação do dado
 dice = [1,2,3,4,5,6]
 
 #Desenvolvimento do jogo
