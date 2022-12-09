@@ -71,6 +71,7 @@ if number > 0:
     my_turtle.speed(100)
     fibo_plot(number)
     turtle.done()
+
 else:
     print("O número de iterações deve ser maior do que zero")
 
