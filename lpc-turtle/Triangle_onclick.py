@@ -4,6 +4,7 @@ screen = turtle.Screen()
 turtle.title("Triangle onclick")
 my_turtle = turtle.Turtle()
 
+
 def triangle(x,y):
     my_turtle.penup()
     my_turtle.goto(x,y)
