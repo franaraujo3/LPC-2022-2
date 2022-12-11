@@ -16,6 +16,7 @@ def triangle(x,y):
         my_turtle.left(120)
         my_turtle.fd(100)
 
+        
 turtle.onscreenclick(triangle,1)
 
 turtle.listen()
