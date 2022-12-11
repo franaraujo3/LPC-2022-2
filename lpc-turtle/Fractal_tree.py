@@ -10,7 +10,9 @@ my_turtle.left(90)
 my_turtle.bk(100)
 my_turtle.speed(200)
 
+
 def fractal_tree(n):
+
     if n < 10:
         return
     else:
@@ -24,6 +26,7 @@ def fractal_tree(n):
         fractal_tree(3*n/4)
         my_turtle.left(30)
         my_turtle.bk(n)
+
 
 fractal_tree(100)
 turtle.done()
