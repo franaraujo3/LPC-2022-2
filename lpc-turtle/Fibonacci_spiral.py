@@ -63,6 +63,7 @@ def fibo_plot(n):
         value_a = value_b
         value_b += temp
 
+        
 if number > 0:
     print("Série de Fibonacci para {} elementos: ".format(number))
     my_turtle = turtle.Turtle()
