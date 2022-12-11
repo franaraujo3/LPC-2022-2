@@ -6,6 +6,7 @@ turtle.title("Fibonacci spiral")
 factor = 1
 number = int(input("Insira o número de iterações (o número deverá ser maior que 0: "))
 
+
 def fibo_plot(n):
     value_a = 0
     value_b = 1
@@ -64,6 +65,7 @@ def fibo_plot(n):
         temp = value_a
         value_a = value_b
         value_b += temp
+
 
 if number > 0:
     print("Série de Fibonacci para {} elementos: ".format(number))
