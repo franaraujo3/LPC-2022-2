@@ -2,7 +2,6 @@ import turtle
 import math
 
 turtle.title("Fibonacci spiral")
-
 factor = 1
 number = int(input("Insira o número de iterações (o número deverá ser maior que 0: "))
 
@@ -57,15 +56,12 @@ def fibo_plot(n):
         print(value_b)
         fdwd = math.pi * square_angle_b / 2
         fdwd /= 90
-
         for j in range(90):
             my_turtle.fd(fdwd)
             my_turtle.left(1)
-
         temp = value_a
         value_a = value_b
         value_b += temp
-
 
 if number > 0:
     print("Série de Fibonacci para {} elementos: ".format(number))
